@@ -7,5 +7,5 @@ user_name = "Tijani Eneye"
 
 new_name = user_name.replace('Eneye', 'Usman')
 
-greeting = 'Hello {new_name} and {user_name}'.format()
+greeting = f'Hello {new_name} and {user_name}'
 print(greeting)
