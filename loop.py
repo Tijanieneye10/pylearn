@@ -8,3 +8,6 @@ for item in range(18):
         print('this is 15')
     else:
         print('is odd number')
+
+while True:
+    print('loop')
