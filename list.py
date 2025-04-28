@@ -16,3 +16,10 @@ my_list.pop()
 print(my_list)
 # Find using index
 print(my_list.index(4))
+new_list = my_list.sort()
+print(sorted(my_list))
+
+slice = my_list[0:5]
+print(slice)
+
+
