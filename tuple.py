@@ -7,6 +7,6 @@ def user_info():
     return name, age
 
 person = user_info()
-name, age = person
-print(name, age)
+_, age = person
+print(f'{age} is showing here')
 print(type(person))
