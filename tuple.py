@@ -7,4 +7,6 @@ def user_info():
     return name, age
 
 person = user_info()
+name, age = person
+print(name, age)
 print(type(person))
