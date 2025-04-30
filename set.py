@@ -21,6 +21,8 @@ set8 = set5 <= set6
 
 set9 = set5.issuperset(set6)
 
+set10 = set6.isdisjoint(set7) #have nothing in common
+
 print(set3)
 print(set4)
 print(set1.difference(set2))
