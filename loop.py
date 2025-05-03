@@ -1,4 +1,4 @@
-list = ['apple', 'banana', 'orange']
+items = ['apple', 'banana', 'orange']
 
 
 for item in range(18):
