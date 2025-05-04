@@ -1,12 +1,19 @@
-import typehint
-from typehint import fullname
+# import typehint
+# from typehint import fullname
+# import requests
+#
+# def multiply(x: int, y:int) -> int:
+#     return x * y
+#
+# def add(x, y):
+#     return x + y
+#
+#
+# print(typehint.fullname("John", "Smith"))
+# print(fullname("John", "Doe"))
 
-def multiply(x: int, y:int) -> int:
-    return x * y
+import requests
 
-def add(x, y):
-    return x + y
+response = requests.get("http://jsonplaceholder.typicode.com/todos/1")
 
-
-print(typehint.fullname("John", "Smith"))
-print(fullname("John", "Doe"))
+print(response.json())
